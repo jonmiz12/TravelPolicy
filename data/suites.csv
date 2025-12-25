@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"This test validates the registration of insurance policies","4181","tc01_Register","TravelPolicySuite","Thu Dec 25 19:42:29 UTC 2025","passed","Thu Dec 25 19:42:33 UTC 2025","tests.InsuranceRegistrationTest","TravelPolicyTests","tests.InsuranceRegistrationTest","tc01_Register"
+"This test validates the registration of insurance policies","5689","tc01_Register","TravelPolicySuite","Thu Dec 25 19:50:38 UTC 2025","passed","Thu Dec 25 19:50:44 UTC 2025","tests.InsuranceRegistrationTest","TravelPolicyTests","tests.InsuranceRegistrationTest","tc01_Register"
