@@ -1,4 +1,4 @@
-name: Selenium TestNG Tests
+name: Run Tests
 
 on:
   push:
@@ -6,11 +6,11 @@ on:
   pull_request:
 
 jobs:
-  test:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Java
@@ -20,10 +20,11 @@ jobs:
           java-version: '17'
 
       - name: Run tests
-        run: mvn clean test
+        run: mvn test
 
-      - name: Upload test reports
-        uses: actions/upload-artifact@v4
+      - name: Deploy reports to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          name: testng-reports
-          path: target/surefire-reports
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: target/surefire-reports
