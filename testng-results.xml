@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-25T15:35:50 UTC" name="Surefire suite" finished-at="2025-12-25T15:37:48 UTC" duration-ms="117942">
+  <suite started-at="2025-12-25T15:39:48 UTC" name="Surefire suite" finished-at="2025-12-25T15:41:45 UTC" duration-ms="116209">
     <groups>
     </groups>
-    <test started-at="2025-12-25T15:35:50 UTC" name="Surefire test" finished-at="2025-12-25T15:37:48 UTC" duration-ms="117942">
+    <test started-at="2025-12-25T15:39:48 UTC" name="Surefire test" finished-at="2025-12-25T15:41:45 UTC" duration-ms="116209">
       <class name="tests.InsuranceRegistrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.InsuranceRegistrationTest@3fb1549b]" started-at="2025-12-25T15:35:51 UTC" name="setup" finished-at="2025-12-25T15:37:44 UTC" duration-ms="113268" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.InsuranceRegistrationTest@3fb1549b]" started-at="2025-12-25T15:39:48 UTC" name="setup" finished-at="2025-12-25T15:41:36 UTC" duration-ms="107357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc01_Register()[pri:0, instance:tests.InsuranceRegistrationTest@3fb1549b]" started-at="2025-12-25T15:37:44 UTC" name="tc01_Register" finished-at="2025-12-25T15:37:48 UTC" duration-ms="4599" status="PASS">
+        <test-method signature="tc01_Register()[pri:0, instance:tests.InsuranceRegistrationTest@3fb1549b]" started-at="2025-12-25T15:41:36 UTC" name="tc01_Register" finished-at="2025-12-25T15:41:45 UTC" duration-ms="8784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_Register -->
