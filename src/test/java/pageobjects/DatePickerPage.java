@@ -28,7 +28,7 @@ public class DatePickerPage extends Header{
         waitFor(validDaysBtns.get(0));
         return this;
     }
-    @Description("This method clicks the nth day from today's date")
+    @Description("This method clicks the nth day from today's datee")
     public DatePickerPage clickDateByDays(int daysCount) {
         try{
             validDaysBtns.get(daysCount-1).click();
