@@ -12,7 +12,6 @@ public class DatePickerPage extends Header{
     private final By validDaysBtnsLocator = By.cssSelector("[role=\"presentation\"]>div[class='']>button");
     @FindBy (css="[role=\"presentation\"]>div[class='']>button")
     List<WebElement> validDaysBtns;
-
     @FindBy (css = "button:not(.Mui-disabled)[aria-pressed=\"true\"]")
     List<WebElement> ChosenDays;
     @FindBy (css="button#nextButton")

@@ -12,8 +12,4 @@ public class InsuranceRegistrationTest extends BaseTest{
         DatePickerPage.waitForLoad().clickDateByDays(7).clickDateByDays(37).clickNextBtn();
         assert (PassengersPage.isPassengersPageOpened());
     }
-
-    public void step1(){
-
-    }
 }
