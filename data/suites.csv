@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"This test validates the registration of insurance policies","3781","tc01_Register","TravelPolicySuite","Thu Dec 25 19:30:37 UTC 2025","passed","Thu Dec 25 19:30:41 UTC 2025","tests.InsuranceRegistrationTest","TravelPolicyTests","tests.InsuranceRegistrationTest","tc01_Register"
