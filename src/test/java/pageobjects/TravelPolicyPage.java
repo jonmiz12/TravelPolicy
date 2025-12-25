@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class TravelPolicyPage extends BasePage{
     @FindBy (css = "#logo-harel-logo")
-
     WebElement harelLogo;
     @FindBy(css="button[data-hrl-bo=\"purchase-for-new-customer\"]")
     WebElement firstTimePurchaseBtn;

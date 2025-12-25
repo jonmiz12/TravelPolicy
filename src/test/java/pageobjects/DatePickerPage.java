@@ -35,7 +35,6 @@ public class DatePickerPage extends Header{
         } catch (Exception IndexOutOfBoundsException) {
             daysCount = daysCount - validDaysBtns.size() - ChosenDays.size();
             ForwardDatesBtn.click();
-
             waitForLoad();
             monthContainers.get(1).
                     findElements(validDaysBtnsLocator).
