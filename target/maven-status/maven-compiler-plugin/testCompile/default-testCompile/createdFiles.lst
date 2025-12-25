@@ -1,0 +1,8 @@
+pageobjects\DatePickerPage.class
+pageobjects\PassengersPage.class
+tests\InsuranceRegistrationTest.class
+pageobjects\TravelPolicyPage.class
+pageobjects\DestinationsPage.class
+tests\BaseTest.class
+pageobjects\BasePage.class
+pageobjects\Header.class
